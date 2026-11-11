@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+
+<html lang="kk">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Фотосинтез — өсімдіктер әлемі</title>
+
+<style>
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background: #f0f8f0;
+
+    color: #20352a;
+
+    line-height: 1.6;
+
+}
+
+header {
+
+    background: #176b3a;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 35px 15px;
+
+}
+
+header h1 {
+
+    font-size: 34px;
+
+    margin-bottom: 10px;
+
+}
+
+nav {
+
+    background: #104d2b;
+
+    padding: 15px;
+
+    text-align: center;
+
+}
+
+nav a {
+
+    color: white;
+
+    text-decoration: none;
+
+    margin: 0 12px;
+
+    font-weight: bold;
+
+}
+
+nav a:hover {
+
+    color: #a8f0b8;
+
+}
+
+.hero {
+
+    text-align: center;
+
+    padding: 65px 20px;
+
+    background: linear-gradient(135deg, #d8f5d0, #a5dfa0);
+
+}
+
+.hero h2 {
+
+    font-size: 30px;
+
+    color: #176b3a;
+
+    margin-bottom: 15px;
+
+}
+
+.hero p {
+
+    max-width: 700px;
+
+    margin: auto;
+
+    font-size: 18px;
+
+}
+
+section {
+
+    max-width: 1000px;
+
+    margin: 35px auto;
+
+    padding: 25px;
+
+}
+
+h2 {
+
+    color: #176b3a;
+
+    margin-bottom: 15px;
+
+}
+
+.card {
+
+    background: white;
+
+    padding: 22px;
+
+    border-radius: 15px;
+
+    margin: 15px 0;
+
+    box-shadow: 0 4px 12px #00000012;
+
+}
+
+.formula {
+
+    background: #176b3a;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    font-size: 25px;
+
+    margin-top: 20px;
+
+}
+
+ul {
+
+    padding-left: 25px;
+
+}
+
+button {
+
+    background: #176b3a;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 22px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+    margin-top: 12px;
+
+}
+
+button:hover {
+
+    background: #104d2b;
+
+}
+
+select {
+
+    padding: 10px;
+
+    border-radius: 8px;
+
+    border: 1px solid #aaa;
+
+    margin: 10px 0;
+
+}
+
+#result {
+
+    font-weight: bold;
+
+    margin-top: 15px;
+
+    color: #176b3a;
+
+}
+
+footer {
+
+    background: #104d2b;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+    margin-top: 40px;
+
+}
+
+@media (max-width: 600px) {
+
+    header h1 {
+
+        font-size: 25px;
+
+    }
+
+    nav a {
+
+        display: inline-block;
+
+        margin: 5px;
+
+    }
+
+    .hero h2 {
+
+        font-size: 24px;
+
+    }
+
+    .formula {
+
+        font-size: 18px;
+
+    }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>🌿 Фотосинтез</h1>
+
+    <p>Өсімдіктердің тіршілік көзі</p>
+
+</header>
+
+<nav>
+
+    <a href="#about">Анықтама</a>
+
+    <a href="#process">Үдерісі</a>
+
+    <a href="#importance">Маңызы</a>
+
+    <a href="#test">Тест</a>
+
+</nav>
+
+<div class="hero">
+
+    <h2>Фотосинтез дегеніміз не?</h2>
+
+    <p>
+
+        Фотосинтез — өсімдіктердің күн сәулесінің көмегімен
+
+        су мен көмірқышқыл газынан қоректік зат түзіп,
+
+        оттегін бөлу үдерісі.
+
+    </p>
+
+</div>
+
+<section id="about">
+
+    <h2>🌱 Фотосинтез туралы</h2>
+
+    <div class="card">
+
+        <p>
+
+            Фотосинтез көбінесе өсімдіктердің жапырақтарында жүреді.
+
+            Жапырақтағы хлорофилл күн сәулесін сіңіреді.
+
+            Осы энергия арқылы өсімдік өзіне қажетті глюкоза түзеді.
+
+        </p>
+
+    </div>
+
+    <div class="formula">
+
+        6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂
+
+    </div>
+
+    <p style="text-align:center; margin-top:10px;">
+
+        Көмірқышқыл газы + Су → Глюкоза + Оттегі
+
+    </p>
+
+</section>
+
+<section id="process">
+
+    <h2>☀️ Фотосинтез кезеңдері</h2>
+
+    <div class="card">
+
+        <h3>1. Жарық кезеңі</h3>
+
+        <p>
+
+            Бұл кезеңде өсімдік күн сәулесін сіңіреді.
+
+            Су ыдырап, оттегі бөлінеді және энергия жиналады.
+
+        </p>
+
+    </div>
+
+    <div class="card">
+
+        <h3>2. Қараңғы кезеңі</h3>
+
+        <p>
+
+            Бұл кезеңде көмірқышқыл газының көмегімен
+
+            глюкоза түзіледі. Бұл үдеріс Кальвин циклі деп аталады.
+
+        </p>
+
+    </div>
+
+</section>
+
+<section id="importance">
+
+    <h2>🌍 Фотосинтездің маңызы</h2>
+
+    <div class="card">
+
+        <ul>
+
+            <li>Атмосфераға оттегі бөледі.</li>
+
+            <li>Адамдар мен жануарларға қорек болатын өсімдік заттарын түзеді.</li>
+
+            <li>Ауадағы көмірқышқыл газын азайтуға көмектеседі.</li>
+
+            <li>Табиғаттағы тіршіліктің сақталуына ықпал етеді.</li>
+
+        </ul>
+
+    </div>
+
+</section>
+
+<section>
+
+    <h2>🧪 Тәжірибе: Фотосинтезге не әсер етеді?</h2>
+
+    <div class="card">
+
+        <p>Күн сәулесінің мөлшерін таңда:</p>
+
+        <select id="light">
+
+            <option value="1">Жарық жоқ</option>
+
+            <option value="2">Аз жарық</option>
+
+            <option value="3">Көп жарық</option>
+
+        </select>
+
+        <br>
+
+        <p>Судың мөлшерін таңда:</p>
+
+        <select id="water">
+
+            <option value="1">Су аз</option>
+
+            <option value="2">Су жеткілікті</option>
+
+        </select>
+
+        <br>
+
+        <button onclick="experiment()">Нәтижені көру</button>
+
+        <p id="result"></p>
+
+    </div>
+
+</section>
+
+<section id="test">
+
+    <h2>📝 Біліміңді тексер!</h2>
+
+    <div class="card">
+
+        <p><b>1. Фотосинтез қай жерде жүреді?</b></p>
+
+        <button onclick="answer(1, false)">Тамырда</button>
+
+        <button onclick="answer(1, true)">Жапырақта</button>
+
+        <button onclick="answer(1, false)">Гүлде</button>
+
+        <p id="q1"></p>
+
+    </div>
+
+    <div class="card">
+
+        <p><b>2. Фотосинтез кезінде қандай газ бөлінеді?</b></p>
+
+        <button onclick="answer(2, true)">Оттегі</button>
+
+        <button onclick="answer(2, false)">Азот</button>
+
+        <button onclick="answer(2, false)">Көмірқышқыл газы</button>
+
+        <p id="q2"></p>
+
+    </div>
+
+    <div class="card">
+
+        <p><b>3. Фотосинтезге не қажет?</b></p>
+
+        <button onclick="answer(3, true)">Күн сәулесі, су және CO₂</button>
+
+        <button onclick="answer(3, false)">Тек ауа</button>
+
+        <button onclick="answer(3, false)">Тек топырақ</button>
+
+        <p id="q3"></p>
+
+    </div>
+
+    <div class="card">
+
+        <p><b>4. Өсімдікке жасыл түс беретін зат?</b></p>
+
+        <button onclick="answer(4, false)">Глюкоза</button>
+
+        <button onclick="answer(4, true)">Хлорофилл</button>
+
+        <button onclick="answer(4, false)">Оттегі</button>
+
+        <p id="q4"></p>
+
+    </div>
+
+    <h3 id="score">Дұрыс жауаптар: 0 / 4</h3>
+
+</section>
+
+<footer>
+
+    <p>© 2026 Фотосинтез туралы оқу сайты</p>
+
+    <p>Білім — болашақтың кілті! 🌿</p>
+
+</footer>
+
+<script>
+
+function experiment() {
+
+    let light = Number(document.getElementById("light").value);
+
+    let water = Number(document.getElementById("water").value);
+
+    let result = document.getElementById("result");
+
+    if (light === 1) {
+
+        result.innerText =
+
+            "Нәтиже: Жарық жоқ болғандықтан фотосинтез жүрмейді.";
+
+    } else if (water === 1) {
+
+        result.innerText =
+
+            "Нәтиже: Су аз болғандықтан фотосинтез баяулайды.";
+
+    } else if (light === 3) {
+
+        result.innerText =
+
+            "Нәтиже: Жарық пен су жеткілікті. Фотосинтез қарқынды жүреді.";
+
+    } else {
+
+        result.innerText =
+
+            "Нәтиже: Фотосинтез қалыпты деңгейде жүреді.";
+
+    }
+
+}
+
+let correct = 0;
+
+let answered = [];
+
+function answer(question, isCorrect) {
+
+    if (answered.includes(question)) return;
+
+    answered.push(question);
+
+    let output = document.getElementById("q" + question);
+
+    if (isCorrect) {
+
+        output.innerText = "✅ Дұрыс жауап!";
+
+        correct++;
+
+    } else {
+
+        output.innerText = "❌ Қате жауап!";
+
+    }
+
+    document.getElementById("score").innerText =
+
+        "Дұрыс жауаптар: " + correct + " / 4";
+
+}
+
+</script>
+
+</body>
+
+</html>
